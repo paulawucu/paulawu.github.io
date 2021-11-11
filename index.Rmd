@@ -1,0 +1,19 @@
+---
+output: 
+  html_document:
+    _disableToc: true
+---
+<body>
+<h2>Pinyi(Paula) Wu</h2><br>
+<img align="right" src="images/mainaltcrop.jpg" width="252.25" height="341">
+<h5>Candidate for MS in Biostatistics at Columbia University</h5>
+<h5>Track: Public Health and Data Science</h5>
+<h5>Email: *pw2551@cumc.columbia.edu*</h5>
+</body>
+
+
+<br>
+<br>
+<br>
+<br>
+Greetings! My name is Paula, currently a first-year MS student in Biostatistics at Columbia University. 
