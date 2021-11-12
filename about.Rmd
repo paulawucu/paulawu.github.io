@@ -1,16 +1,39 @@
 ---
-title: "Education"
+title: "Research Experience"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
-<body>
-<h2>Previous Education:</h2><br>
-</body>
-
-
 <br>
+
+## Adam Snyder lab 
+**Research Assistant**
+*University of Rochester; Rochester, NY* <br>
+Feb. 2020 – May 2021
+<ul>
+<li>Assisting in research focusing on decoding EEG signals of novel detections of different kinds of visual components in macaques. Helping analyze EEG data using Python and MATLAB, chairing macaques, preparing experiments setups, providing entertainment and foods to macaques.</li>
+</ul>
+<br><br>
+
+## Xiongjie Yu lab 
+**Research Assistant**
+*Zhejiang University; Hangzhou, China* <br>
+Jul. 2019 – Aug. 2019
+<ul>
+<li>Trained a rat to perform discrimination task on time intervals between a pair of sound stimulus, coded in Spike 2 and MATLAB for experimental protocols and data analysis. </li>
+<li>Assisted in novelty detection in sound frequency in nonhuman primates, examining neural activity using electrophysiology (EP) </li>
+</ul>
+<br><br>
+
+## Hanlan Hu lab
+**Research Assistant**
+*Zhejiang University; Hangzhou, China* <br>
+Jun. 2019 – Jul. 2019
+<ul>
+<li>Trained a rat to perform discrimination task on time intervals between a pair of sound stimulus, coded in Spike 2 and MATLAB for experimental protocols and data analysis. </li>
+<li>Assisted in novelty detection in sound frequency in nonhuman primates, examining neural activity using electrophysiology (EP) </li>
+</ul>
 <br>
 
 

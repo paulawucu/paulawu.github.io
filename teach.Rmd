@@ -1,0 +1,50 @@
+---
+title: "Teaching Experience"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+<br>
+
+## Computing Club at CUIMC
+**Columbia University, New York, NY**<br>
+*Leader and Lecturer of the Python Workshop*<br>
+<ul>
+<li>With another leader, presented introductory Python knowledge and coding skills to peer students in the
+Computing Club at CUIMC.</li>
+<li>In charge of the implementation and demonstration of programming, covered topics including Python
+basics data structures, data preprocessing, data frame, graphing, and machine learning using scikit-learn.
+</li>
+</ul>
+<br>
+
+
+## Teaching Assistant
+**University of Rochester, Rochester, NY**<br>
+*Lab Teaching Assistant for CSC 161: Intro to Programming* <br>
+Sept. 2020 – May. 2021
+<ul>
+<li>Held bi-weekly lab sessions, answered Python-related questions, offered coding help and
+instructions regarding weekly assignments and a 3-staged project based on different Python topics, graded lab assignments, projects, midterm, and final exam.
+</li>
+</ul>
+<br>
+
+*Teaching Assistant for BCS 204: Lab in Cognitive Neuroscience*<br>
+Sept. 2020 – Dec. 2020
+<ul>
+<li>Holding weekly office hour, offering instructions on analysis of behavioral, EEG, fMRI data using Excel,EEGLAB, and SPM12, assisting in recording EEG demo in the actual laboratory setting.</li>
+</ul>
+<br><br>
+
+## Center for Excellence in Teaching and Learning
+**University of Rochester, Rochester, NY**<br>
+*Tutor for multiple subjects*<br>
+Feb. 2019 – May 2021
+<ul>
+<li>Tutoring peer students on a one-on-one basis in various subjects, including Brain and Cognitive Science, Biology, and Computer Science. Answering questions regarding course materials, making test preparation plans, and advising overall study skills in specific subjects.</li>
+</ul>
+<br>
+
+## Presentation

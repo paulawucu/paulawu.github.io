@@ -3,12 +3,12 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About Me"
+    - text: "Experience"
       menu:
-      - text: "Academic"
+      - text: "Research"
         href: about.html
-      - text: "Casual"
-        href: about.html
+      - text: "Teaching"
+        href: teach.html
     - text: "CV"
       href: "./images/cv_pw.pdf"
     - icon: fa-envelope fa-lg
