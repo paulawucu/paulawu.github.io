@@ -17,3 +17,9 @@ output:
 <br>
 <br>
 Greetings! My name is Paula, currently a first-year MS student in Biostatistics at Columbia University. 
+
+
+The *Drug Overdose* project of [the US jurisdiction](https://paulawucu.github.io/final_project.github.io/)
+
+
+The *Crime Rate* project of the US counties: [Github](https://github.com/paulawucu/p8130_final_project.git), <a href="./images/p8130_fp_report_group_8.pdf" target="blank">Report</a>
