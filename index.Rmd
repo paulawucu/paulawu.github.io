@@ -5,7 +5,7 @@ output:
 ---
 <body>
 <h2>Pinyi(Paula) Wu</h2><br>
-<img align="right" src="images/mainaltcrop.jpg" width="252.25" height="341">
+<img align="right" src="images/pro.JPG" width="252.25" height="341">
 <h5>Candidate for MS in Biostatistics at Columbia University</h5>
 <h5>Track: Public Health and Data Science</h5>
 <h5>Email: *pw2551@cumc.columbia.edu*</h5>
@@ -16,10 +16,13 @@ output:
 <br>
 <br>
 <br>
-Greetings! My name is Paula, currently a first-year MS student in Biostatistics at Columbia University. 
+Greetings! My name is Paula, currently a first-year MS student in Biostatistics at Columbia University. I earned my B.A degree in Data Science and B.S degree in Brain and Cognitive Science, Summa Cum Laude, from University of Rochester (Meliora!). <br><br>
+
+You can explore some of the projects I did during my first year here at Columbia. Enjoy exploring!
 
 
 The *Drug Overdose* project of [the US jurisdiction](https://paulawucu.github.io/final_project.github.io/)
 
 
 The *Crime Rate* project of the US counties: [Github](https://github.com/paulawucu/p8130_final_project.git), <a href="./images/p8130_fp_report_group_8.pdf" target="blank">Report</a>
+
