@@ -11,6 +11,8 @@ navbar:
         href: teach.html
     - text: "CV"
       href: "./images/cv_pw.pdf"
+    - text: "Paula's fWUd"
+      href: eating.html
     - icon: fa-envelope fa-lg
       href: mailto:pw2551@cumc.columbia.edu
     - icon: fa-github fa-lg

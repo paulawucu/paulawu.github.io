@@ -16,10 +16,19 @@ output:
 <br>
 <br>
 <br>
-Greetings! My name is Paula, currently a first-year MS student in Biostatistics at Columbia University. I earned my B.A degree in Data Science and B.S degree in Brain and Cognitive Science, Summa Cum Laude, from University of Rochester (Meliora!). <br><br>
+Greetings! My name is Paula, currently a second-year MS student in Biostatistics at Columbia University. I earned my B.A degree in Data Science and B.S degree in Brain and Cognitive Science, Summa Cum Laude, from University of Rochester (Meliora!). <br><br>
 
-You can explore some of the projects I did during my first year here at Columbia. Enjoy exploring!
+You can explore some of the **projects** I did during my time here at Columbia. 
 
+For my **researching and teaching** experience, please click the *Experience tab* on the top right. 
+
+In my free time, I enjoy food hunting and making journals. I uploaded some of my **journals** about NYC restaurants to the *Paula's fWUd tab*. 
+
+Enjoy exploring! <br><br>
+
+
+The *MIDUS* project: [The Lack of a Moderating Role of Psychological Wellbeing in the Relationship
+Between Childhood Trauma and Change in Cognition in Midlife in the United States](https://github.com/paulawucu/MIDUS.git)
 
 The *Drug Overdose* project of [the US jurisdiction](https://paulawucu.github.io/final_project.github.io/)
 

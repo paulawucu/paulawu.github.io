@@ -1,0 +1,56 @@
+---
+title: "Paula and her journals"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+<br>
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<img src="images/hungry.gif" style="width:50%">
+<center>
+<p><h3><em>Happens to be hungry? Then you've come to the right place!</em></h3></p>
+</center>
+<br>
+
+Okay, since I've been in NYC for a while, I thought it would be cool to share some of the food hunts (aka. restaurant explorations) I did in the past year. I am recently into journaling so I thought "why not doing both?". So, I ate and I wrote (so far two of the best things in my life). Unfortunately, the texts are in Chinese but you got the idea! <br><br>
+
+
+
+# Midori Notebook for Stamps
+
+Scroll through the pictures for more!
+
+<div style="height:480px;width:640px;overflow:scroll;">
+<img src="images/IMG_2420.jpeg" style="width:90%"><br>
+<img src="images/IMG_2421.jpeg" style="width:90%"><br>
+<img src="images/IMG_2422.jpeg" style="width:90%"><br>
+<img src="images/IMG_2423.jpeg" style="width:90%"><br>
+<img src="images/IMG_2424.jpeg" style="width:90%"><br>
+<img src="images/IMG_2425.jpeg" style="width:90%"><br>
+<img src="images/IMG_2426.jpeg" style="width:90%">
+</div>
+
+# Traveler's Notebook Refill #2
+Scroll through the pictures for more! 
+
+<div style="height:480px;width:640px;overflow:scroll;">
+<img src="images/IMG_2431.jpeg" style="width:90%"><br>
+<img src="images/IMG_2432.jpeg" style="width:90%"><br>
+<img src="images/IMG_2433.jpeg" style="width:90%"><br>
+<img src="images/IMG_2434.jpeg" style="width:90%"><br>
+<img src="images/IMG_2435.jpeg" style="width:90%"><br>
+<img src="images/IMG_2430.jpeg" style="width:90%">
+</div>
+
+
+This page keeps updating. The above pictures are just a quick look into my 50+ works. Next time I will upload my traveling food hunts and Ann Arbor restaurant exploration :). But feel free to try more food on your own!! The least stuff I need to worry about is to answer the question "what to have for dinner?"
+
+Back to [homepage](index.html)

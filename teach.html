@@ -13,7 +13,7 @@
 
 <title>Teaching Experience</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -65,6 +65,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -85,6 +86,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -142,11 +146,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -175,8 +183,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -184,16 +192,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -310,7 +311,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -323,7 +324,7 @@ div.tocify {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Experience
      
     <span class="caret"></span>
@@ -339,6 +340,9 @@ div.tocify {
 </li>
 <li>
   <a href="./images/cv_pw.pdf">CV</a>
+</li>
+<li>
+  <a href="eating.html">Paula's fWUd</a>
 </li>
 <li>
   <a href="mailto:pw2551@cumc.columbia.edu">
@@ -375,62 +379,89 @@ div.tocify {
 <p><br></p>
 <div id="computing-club-at-cuimc" class="section level2">
 <h2>Computing Club at CUIMC</h2>
-<strong>Columbia University, New York, NY</strong><br> <em>Leader and Lecturer of the Python Workshop</em><br>
+<strong>Columbia University, New York, NY</strong><br> <em>Leader and
+Lecturer of the Python Workshop</em><br>
 <ul>
 <li>
-With another leader, presented introductory Python knowledge and coding skills to peer students in the Computing Club at CUIMC.
+With another leader, presented introductory Python knowledge and coding
+skills to peer students in the Computing Club at CUIMC.
 </li>
 <li>
-In charge of the implementation and demonstration of programming, covered topics including Python basics data structures, data preprocessing, data frame, graphing, and machine learning using scikit-learn.
+In charge of the implementation and demonstration of programming,
+covered topics including Python basics data structures, data
+preprocessing, data frame, graphing, and machine learning using
+scikit-learn.
 </li>
 </ul>
 <p><br></p>
 </div>
 <div id="teaching-assistant" class="section level2">
 <h2>Teaching Assistant</h2>
-<strong>University of Rochester, Rochester, NY</strong><br> <em>Lab Teaching Assistant for CSC 161: Intro to Programming</em> <br> Sept. 2020 – May. 2021
+<strong>University of Rochester, Rochester, NY</strong><br> <em>Lab
+Teaching Assistant for CSC 161: Intro to Programming</em> <br>
+Sept. 2020 – May. 2021
 <ul>
 <li>
-Held bi-weekly lab sessions, answered Python-related questions, offered coding help and instructions regarding weekly assignments and a 3-staged project based on different Python topics, graded lab assignments, projects, midterm, and final exam.
+Held bi-weekly lab sessions, answered Python-related questions, offered
+coding help and instructions regarding weekly assignments and a 3-staged
+project based on different Python topics, graded lab assignments,
+projects, midterm, and final exam.
 </li>
 </ul>
 <p><br></p>
-<em>Teaching Assistant for BCS 204: Lab in Cognitive Neuroscience</em><br> Sept. 2020 – Dec. 2020
+<em>Teaching Assistant for BCS 204: Lab in Cognitive
+Neuroscience</em><br> Sept. 2020 – Dec. 2020
 <ul>
 <li>
-Holding weekly office hour, offering instructions on analysis of behavioral, EEG, fMRI data using Excel,EEGLAB, and SPM12, assisting in recording EEG demo in the actual laboratory setting.
+Holding weekly office hour, offering instructions on analysis of
+behavioral, EEG, fMRI data using Excel,EEGLAB, and SPM12, assisting in
+recording EEG demo in the actual laboratory setting.
 </li>
 </ul>
 <p><br><br></p>
 </div>
-<div id="center-for-excellence-in-teaching-and-learning" class="section level2">
+<div id="center-for-excellence-in-teaching-and-learning"
+class="section level2">
 <h2>Center for Excellence in Teaching and Learning</h2>
-<strong>University of Rochester, Rochester, NY</strong><br> <em>Tutor for multiple subjects</em><br> Feb. 2019 – May 2021
+<strong>University of Rochester, Rochester, NY</strong><br> <em>Tutor
+for multiple subjects</em><br> Feb. 2019 – May 2021
 <ul>
 <li>
-Tutoring peer students on a one-on-one basis in various subjects, including Brain and Cognitive Science, Biology, and Computer Science. Answering questions regarding course materials, making test preparation plans, and advising overall study skills in specific subjects.
+Tutoring peer students on a one-on-one basis in various subjects,
+including Brain and Cognitive Science, Biology, and Computer Science.
+Answering questions regarding course materials, making test preparation
+plans, and advising overall study skills in specific subjects.
 </li>
 </ul>
 <p><br><br></p>
 </div>
-<div id="harvard-college-auscr-summit-for-young-leaders-in-china" class="section level2">
+<div id="harvard-college-auscr-summit-for-young-leaders-in-china"
+class="section level2">
 <h2>Harvard College AUSCR Summit for Young Leaders in China</h2>
-<strong>Hangzhou, China</strong><br> <em>Teaching fellow</em><br> Aug.12-22 2018
+<strong>Hangzhou, China</strong><br> <em>Teaching fellow</em><br>
+Aug.12-22 2018
 <ul>
 <li>
-Co-taught a seminar in Morphology with a seminar leader to 30 students in total, answered questions, made class notes daily, graded homework and final exam.
+Co-taught a seminar in Morphology with a seminar leader to 30 students
+in total, answered questions, made class notes daily, graded homework
+and final exam.
 </li>
 <li>
-Led and taught a Capstone research project class to a seminar of 9 students, gave advice to each step including topic selection, data collection, data analysis, and presentation preparation.
+Led and taught a Capstone research project class to a seminar of 9
+students, gave advice to each step including topic selection, data
+collection, data analysis, and presentation preparation.
 </li>
 <li>
-Led a house of 54 students with two other teaching fellows. Beat 11 other houses and won the House Cup.
+Led a house of 54 students with two other teaching fellows. Beat 11
+other houses and won the House Cup.
 </li>
 <p><br><br></p>
 </div>
 <div id="presentation" class="section level2">
 <h2>Presentation</h2>
-<p>Increasing Students’ Confidence by Activating Their Prior Knowledge, Workshop Program Symposium, University of Rochester, Rochester, NY. (Dec 2019)</p>
+<p>Increasing Students’ Confidence by Activating Their Prior Knowledge,
+Workshop Program Symposium, University of Rochester, Rochester, NY. (Dec
+2019)</p>
 </div>
 
 

@@ -13,7 +13,7 @@
 
 <title>Research Experience</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -65,6 +65,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -85,6 +86,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -142,11 +146,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -175,8 +183,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -184,16 +192,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -310,7 +311,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -323,7 +324,7 @@ div.tocify {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Experience
      
     <span class="caret"></span>
@@ -339,6 +340,9 @@ div.tocify {
 </li>
 <li>
   <a href="./images/cv_pw.pdf">CV</a>
+</li>
+<li>
+  <a href="eating.html">Paula's fWUd</a>
 </li>
 <li>
   <a href="mailto:pw2551@cumc.columbia.edu">
@@ -375,36 +379,48 @@ div.tocify {
 <p><br></p>
 <div id="adam-snyder-lab" class="section level2">
 <h2>Adam Snyder lab</h2>
-<strong>Research Assistant</strong><br> <em>University of Rochester, Rochester, NY</em> <br> Feb. 2020 – May 2021
+<strong>Research Assistant</strong><br> <em>University of Rochester,
+Rochester, NY</em> <br> Feb. 2020 – May 2021
 <ul>
 <li>
-Assisting in research focusing on decoding EEG signals of novel detections of different kinds of visual components in macaques. Helping analyze EEG data using Python and MATLAB, chairing macaques, preparing experiments setups, providing entertainment and foods to macaques.
+Assisting in research focusing on decoding EEG signals of novel
+detections of different kinds of visual components in macaques. Helping
+analyze EEG data using Python and MATLAB, chairing macaques, preparing
+experiments setups, providing entertainment and foods to macaques.
 </li>
 </ul>
 <p><br><br></p>
 </div>
 <div id="xiongjie-yu-lab" class="section level2">
 <h2>Xiongjie Yu lab</h2>
-<strong>Research Assistant</strong><br> <em>Zhejiang University, Hangzhou, China</em> <br> Jul. 2019 – Aug. 2019
+<strong>Research Assistant</strong><br> <em>Zhejiang University,
+Hangzhou, China</em> <br> Jul. 2019 – Aug. 2019
 <ul>
 <li>
-Trained a rat to perform discrimination task on time intervals between a pair of sound stimulus, coded in Spike 2 and MATLAB for experimental protocols and data analysis.
+Trained a rat to perform discrimination task on time intervals between a
+pair of sound stimulus, coded in Spike 2 and MATLAB for experimental
+protocols and data analysis.
 </li>
 <li>
-Assisted in novelty detection in sound frequency in nonhuman primates, examining neural activity using electrophysiology (EP)
+Assisted in novelty detection in sound frequency in nonhuman primates,
+examining neural activity using electrophysiology (EP)
 </li>
 </ul>
 <p><br><br></p>
 </div>
 <div id="hanlan-hu-lab" class="section level2">
 <h2>Hanlan Hu lab</h2>
-<strong>Research Assistant</strong><br> <em>Zhejiang University, Hangzhou, China</em> <br> Jun. 2019 – Jul. 2019
+<strong>Research Assistant</strong><br> <em>Zhejiang University,
+Hangzhou, China</em> <br> Jun. 2019 – Jul. 2019
 <ul>
 <li>
-Trained a rat to perform discrimination task on time intervals between a pair of sound stimulus, coded in Spike 2 and MATLAB for experimental protocols and data analysis.
+Trained a rat to perform discrimination task on time intervals between a
+pair of sound stimulus, coded in Spike 2 and MATLAB for experimental
+protocols and data analysis.
 </li>
 <li>
-Assisted in novelty detection in sound frequency in nonhuman primates, examining neural activity using electrophysiology (EP)
+Assisted in novelty detection in sound frequency in nonhuman primates,
+examining neural activity using electrophysiology (EP)
 </li>
 </ul>
 <p><br></p>
