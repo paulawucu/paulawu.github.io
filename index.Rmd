@@ -1,10 +1,12 @@
 ---
+title: Pinyi(Paula) Wu
 output: 
   html_document:
     _disableToc: true
+    includes:
+      in_header: "favicon.html" 
 ---
 <body>
-<h2>Pinyi(Paula) Wu</h2><br>
 <img align="right" src="images/pro-up.jpg" width="252.25" height="341">
 <h5>Candidate for MS in Biostatistics at Columbia University</h5>
 <h5>Track: Public Health and Data Science</h5>
