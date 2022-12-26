@@ -4,6 +4,8 @@ output:
   html_document:
     toc: true
     toc_float: true
+    includes:
+      in_header: "favicon.html" 
 ---
 <br>
 
@@ -16,11 +18,11 @@ img {
 </style>
 <img src="images/hungry.gif" style="width:50%">
 <center>
-<p><h3><em>Happens to be hungry? Then you've come to the right place!</em></h3></p>
+<p><h3><em>Happen to be hungry? TYou've come to the right place!</em></h3></p>
 </center>
 <br>
 
-Okay, since I've been in NYC for a while, I thought it would be cool to share some of the food hunts (aka. restaurant explorations) I did in the past year. I am recently into journaling so I thought "why not doing both?". So, I ate and I wrote (so far two of the best things in my life). Unfortunately, the texts are in Chinese but you got the idea! <br><br>
+Okay, since I've been in NYC for a while, I thought it would be cool to share some of the food hunts (aka. restaurant explorations) I did in the past year. I am also recently into journaling, so I thought "why not doing both?". So, I ate and I wrote (so far two of the best things in my life). Unfortunately, the texts are in Chinese but you got the idea! <br><br>
 
 
 
