@@ -18,7 +18,7 @@ img {
 </style>
 <img src="images/hungry.gif" style="width:50%">
 <center>
-<p><h3><em>Happen to be hungry? TYou've come to the right place!</em></h3></p>
+<p><h3><em>Happen to be hungry? You've come to the right place!</em></h3></p>
 </center>
 <br>
 
