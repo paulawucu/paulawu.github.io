@@ -1,5 +1,5 @@
 ---
-title: Pinyi(Paula) Wu
+title: Paula Wu
 output: 
   html_document:
     _disableToc: true
@@ -8,9 +8,8 @@ output:
 ---
 <body>
 <img align="right" src="images/pro-up.jpg" width="252.25" height="341">
-<h5>Candidate for MS in Biostatistics at Columbia University</h5>
-<h5>Track: Public Health and Data Science</h5>
-<h5>Email: *pw2551@cumc.columbia.edu*</h5>
+<h5>PhD Student in Bioinformatics, University or Michigan, Ann Arbor</h5>
+<h5>Email: *paulawu@umich.edu*</h5>
 </body>
 
 
@@ -18,9 +17,9 @@ output:
 <br>
 <br>
 <br>
-Greetings! My name is Paula, currently a second-year MS student in Biostatistics at Columbia University. I earned my B.A degree in Data Science and B.S degree in Brain and Cognitive Science, Summa Cum Laude, from University of Rochester (Meliora!). <br><br>
+Greetings! My name is Paula, currently a first-year PhD student at UMich. I earned my M.S degree in Biostatistics from Columbia University, B.A degree in Data Science and B.S degree in Brain and Cognitive Science, Summa Cum Laude, from the University of Rochester (Meliora!). <br><br>
 
-You can explore some of the **projects** I did during my time here at Columbia. 
+You can explore some of the **projects** I did previously. 
 
 For my **researching and teaching** experience, please click the *Experience tab* on the top right. 
 
