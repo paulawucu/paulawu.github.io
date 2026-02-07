@@ -1,5 +1,5 @@
 ---
-title: Paula Wu
+title: Paula (Pinyi) Wu
 output: 
   html_document:
     _disableToc: true
@@ -7,7 +7,7 @@ output:
       in_header: "favicon.html" 
 ---
 <body>
-<img align="right" src="images/pro-up.jpg" width="252.25" height="341">
+<img align="right" src="images/pro-up.jpg" width="252.25" height="341" style="margin-left: 10px; margin-bottom: 20px;">
 <h5>PhD Candiate in Bioinformatics, [Draelos lab](https://draeloslab.org/){target="_blank"}, University or Michigan, Ann Arbor</h5>
 <h5>Email: *paulawu at umich dot edu*</h5>
 </body>
@@ -17,12 +17,11 @@ output:
 <br>
 <br>
 <br>
-Greetings! My name is Paula, and I am a thrid-year PhD candidate at UMich. I work with Dr. Anne Draelos and I currently work on using bayesian optimization to efficiently characterize high-dimensional neural tuning curves in real-time calcium imaging.  
+Greetings! My name is Paula, and I am a third-year PhD candidate at UMich. Working with Dr. Anne Draelos, I currently use Bayesian optimization to efficiently characterize high-dimensional neural tuning curves in real-time calcium imaging.  
 
 I earned my M.S degree in Biostatistics from Columbia University, B.A degree in Data Science and B.S degree in Brain and Cognitive Science, Summa Cum Laude, from the University of Rochester (Meliora!). <br><br>
 
-For my **researching and teaching** experience, please click the *Experience tab* on the top right. 
 
-In my free time, I enjoy making daytrip plans, exploring any cities, and making food journals. I uploaded some of my **journals** about NYC restaurants to the *Paula's fWUd tab*. I know... I konw that was a long time ago, I'm trying my best to catch up :]
+In my free time, I enjoy planning day trips, exploring new cities and making food journals. I also hope to one day own a couple of exotic pets (to be more specific, a crested gecko and a tarantula) and name them Alphys and Muffet. I've uploaded some of my **journals** about NYC restaurants to the *Paula's fWUd tab*. I know... that was a long time ago, but I'm trying my best to catch up :]
 
 Enjoy exploring! <br><br>
