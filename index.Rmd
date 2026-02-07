@@ -7,8 +7,8 @@ output:
       in_header: "favicon.html" 
 ---
 <body>
-<img align="right" src="images/pro-up.jpg" width="252.25" height="341" style="margin-left: 10px; margin-bottom: 20px;">
-<h5>PhD Candiate in Bioinformatics, [Draelos lab](https://draeloslab.org/){target="_blank"}, University or Michigan, Ann Arbor</h5>
+<img align="right" src="images/pro-up.jpg" width="252.25" height="341" style="margin-left: 10px; margin-bottom: 10px;">
+<h5>PhD Candidate in Bioinformatics, [Draelos lab](https://draeloslab.org/){target="_blank"}, University or Michigan, Ann Arbor</h5>
 <h5>Email: *paulawu at umich dot edu*</h5>
 </body>
 
