@@ -8,8 +8,8 @@ output:
 ---
 <body>
 <img align="right" src="images/pro-up.jpg" width="252.25" height="341">
-<h5>PhD Student in Bioinformatics, University or Michigan, Ann Arbor</h5>
-<h5>Email: *paulawu@umich.edu*</h5>
+<h5>PhD Candiate in Bioinformatics, [Draelos lab](https://draeloslab.org/){target="_blank"}, University or Michigan, Ann Arbor</h5>
+<h5>Email: *paulawu at umich dot edu*</h5>
 </body>
 
 
@@ -17,22 +17,12 @@ output:
 <br>
 <br>
 <br>
-Greetings! My name is Paula, currently a first-year PhD student at UMich. I earned my M.S degree in Biostatistics from Columbia University, B.A degree in Data Science and B.S degree in Brain and Cognitive Science, Summa Cum Laude, from the University of Rochester (Meliora!). <br><br>
+Greetings! My name is Paula, and I am a thrid-year PhD candidate at UMich. I work with Dr. Anne Draelos and I currently work on using bayesian optimization to efficiently characterize high-dimensional neural tuning curves in real-time calcium imaging.  
 
-You can explore some of the **projects** I did previously. 
+I earned my M.S degree in Biostatistics from Columbia University, B.A degree in Data Science and B.S degree in Brain and Cognitive Science, Summa Cum Laude, from the University of Rochester (Meliora!). <br><br>
 
 For my **researching and teaching** experience, please click the *Experience tab* on the top right. 
 
-In my free time, I enjoy food hunting and making journals. I uploaded some of my **journals** about NYC restaurants to the *Paula's fWUd tab*. 
+In my free time, I enjoy making daytrip plans, exploring any cities, and making food journals. I uploaded some of my **journals** about NYC restaurants to the *Paula's fWUd tab*. I know... I konw that was a long time ago, I'm trying my best to catch up :]
 
 Enjoy exploring! <br><br>
-
-
-The *MIDUS* project: [The Lack of a Moderating Role of Psychological Wellbeing in the Relationship
-Between Childhood Trauma and Change in Cognition in Midlife in the United States](https://github.com/paulawucu/MIDUS.git)
-
-The *Drug Overdose* project of [the US jurisdiction](https://paulawucu.github.io/final_project.github.io/)
-
-
-The *Crime Rate* project of the US counties: [Github](https://github.com/paulawucu/p8130_final_project.git), <a href="./images/p8130_fp_report_group_8.pdf" target="blank">Report</a>
-
